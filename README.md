@@ -11,7 +11,8 @@ Before running the application, ensure you have the following installed:
 - [.NET 6.0 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
 - [Visual Studio](https://visualstudio.microsoft.com/) or [Visual Studio Code](https://code.visualstudio.com/)
 - [Serilog](https://serilog.net/)
-- An API key from [OpenAI](https://beta.openai.com/signup/)
+
+Firstly, please place the secret key I provide you in appsettings and launchsettings files.
 
 ## Setup and Configuration
 

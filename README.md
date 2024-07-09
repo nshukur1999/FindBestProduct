@@ -19,8 +19,9 @@ Before running the application, ensure you have the following installed:
    
    Clone the repository to your local machine using the following command:
 
-   git clone <repository_url>
-   cd FindBestProductAI
+   git clone https://github.com/nshukur1999/FindBestProduct.git
+   
+   cd FindBestProduct
    
 
 Install Dependencies

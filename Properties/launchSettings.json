@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "CategoryAttributesApp": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "OpenAI__ApiKey": "enter_secret_key"
+      }
+    }
+  }
+}

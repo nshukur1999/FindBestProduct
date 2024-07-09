@@ -13,6 +13,8 @@ Before running the application, ensure you have the following installed:
 .NET 6.0 SDK
 Visual Studio or Visual Studio Code
 Serilog
+
+
 Important: Make sure to place the provided secret key in both the appsettings.json and launchSettings.json files.
 
 Setup and Configuration

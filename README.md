@@ -55,8 +55,10 @@ Swagger UI
 You can access the Swagger UI to interact with the API at http://localhost:5001/swagger/index.html. This provides an interactive interface to test the endpoints.
 
 API Endpoint
-The primary endpoint is /api/Category, which processes categories and fetches popular attributes for them. The expected payload is a JSON array of categories, each containing a list of subcategories. An example payload is as follows:
+The primary endpoint is /api/Category, which processes categories and fetches popular attributes for them. The expected payload is a JSON array of categories, each containing a list of subcategories. 
 
+
+An example payload 1 is as follows:
 
 [
   {
@@ -73,6 +75,26 @@ The primary endpoint is /api/Category, which processes categories and fetches po
     ]
   }
 ]
+
+
+An example payload 2 is as follows:
+
+[
+  {
+    "CategoryName": "Home Appliances",
+    "SubCategories": [
+      {
+        "CategoryId": 100,
+        "CategoryName": "Refrigerators"
+      },
+      {
+        "CategoryId": 101,
+        "CategoryName": "Washing Machines"
+      }
+    ]
+  }
+]
+
 
 
 Send a POST request to http://localhost:5001/api/Category with the JSON payload as shown above. The API will return a list of popular attributes for each subcategory.

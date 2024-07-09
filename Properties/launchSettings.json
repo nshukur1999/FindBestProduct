@@ -7,7 +7,7 @@
       "applicationUrl": "http://localhost:5001",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "OpenAI__ApiKey": "enter_secret_key"
+        "ApiKey": "Place_Secret_Key_Here"
       }
     }
   }
